@@ -58,7 +58,7 @@ header .content{
 	border-top: 1px solid black;
 }
 header .content p{
-	width: 1000px;
+	width: 800px;
 	/*background: red;*/
 	margin: 200px auto 0;
 	color: white;/*字体颜色*/
@@ -66,6 +66,7 @@ header .content p{
 	font-size: 50px;/*字号*/
 	line-height: 1.5em;/*行高*/
 	text-align: center;/*水平居中对齐*/
+	font-family: "arial"
 }
 header .content .btn{/*选择到按钮*/
 	width: 245px;
