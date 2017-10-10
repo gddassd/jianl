@@ -68,9 +68,10 @@ header .content p{
 	text-align: center;/*水平居中对齐*/
 	font-family: "arial"
 }
+
 header .content .btn{/*选择到按钮*/
 	width: 245px;
-	height: 62px;
+	height: 70px;
 	border: 1px solid white;
 	margin: 50px auto 0;/*外间距 左对齐*/
 	color: white;
@@ -85,11 +86,11 @@ header .content .btn{/*选择到按钮*/
 header .content .btn:hover{
 	background: #4Eb2d6;
 }
-header .content .sanjiao{
+header .content .sanjiao img{
 	display: block;
 	width:100px;/*制作三角的办法*/
 	height: 100px;
-	margin: 55px auto;
+	margin: 90px auto;
 	margin-bottom: 100px;
 	animation:move 1s infinite;
 /*	margin: 60px auto 0;
@@ -101,6 +102,7 @@ header .content .sanjiao{
 
 
 }
+
 @keyframes move{
 	0%{
 		margin-top: 20px;

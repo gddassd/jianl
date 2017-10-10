@@ -23,4 +23,21 @@ $(function(){
 
 	$(".backtop").backTop();
 	//$(".backtop") 返回按钮父容器  
+
+	$("nav .nav li:eq(0)").click(function () {
+        $({num:$(window) .scrollTop()}).animate({Num:700},{
+            duration:1000,
+            step: function () {
+                $(window).scrollTop(this.dNum);
+            }
+        })
+    });
+	$("nav .nav li:eq(1)").click(function () {
+        $({num:$(window) .scrollTop()}).animate({Num:1300},{
+            duration:1000,
+            step: function () {
+                $(window).scrollTop(this.dNum);
+            }
+        })
+    });
 })
